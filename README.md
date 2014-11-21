@@ -57,13 +57,13 @@ string nombre;
 
             if(lenght < MAX_WORKERS)
             {
-                cout << "Digite el nombre del trabajador:\n";
+                cout << endl << "Digite el nombre del trabajador:\n";
                 cin >> worker[lenght].name;
-                cout << "Digite el departamento al que pertenece. Administrativo: admin | Tecnico: tec \n";
+                cout << endl << "Digite el departamento al que pertenece. Administrativo: admin | Tecnico: tec \n";
                 cin >> worker[lenght].department;
-                cout << "Digite la cantidad de horas que trabajo: " << endl;
+                cout << endl << "Digite la cantidad de horas que trabajo: " << endl;
                 cin >> worker[lenght].hoursworked;
-                cout << "Digite su salario mensual: " << endl;
+                cout << endl <<"Digite su salario mensual: " << endl;
                 cin >> worker[lenght].wage;
                 lenght++;
 
